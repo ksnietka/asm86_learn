@@ -19,7 +19,6 @@ _start:
   mov rcx, 0 ; index
   mov rbx, 0 ; counter
 
-
 count_loop:
   cmp rcx, 128
   je done

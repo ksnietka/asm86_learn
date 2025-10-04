@@ -5,18 +5,13 @@ section .text
   global _start
 
 _start:
-  ; import line 
-  ;
-
   mov rax, 0
   mov rdi, 0
   mov rsi, buffer,
   mov rdx, 20
   syscall
 
-
   mov rcx, 0
-
 
 loop:
   mov al, [buffer + rcx]

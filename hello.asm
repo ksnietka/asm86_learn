@@ -19,7 +19,6 @@ _start:
   mov rdx, 64
   syscall
 
-
   mov rdx, rax
   mov rax, 1
   mov rdi, 1
